@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abdullah.traveltourism.Fragments.Expenses">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <Button
+            android:id="@+id/addexpenses"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/add"
+            android:gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <ScrollView
+            android:layout_width="369dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/addexpenses"
+                android:layout_alignLeft="@+id/addexpenses"
+                android:layout_alignStart="@+id/addexpenses">
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ListView
+            android:id="@+id/listexpenses"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/addexpenses"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/totalexpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Expenses :1022202 tk"
+            android:textSize="16sp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_alignBaseline="@+id/addexpenses"
+            android:layout_alignBottom="@+id/addexpenses"
+            android:layout_toRightOf="@+id/addexpenses"
+            android:layout_toEndOf="@+id/addexpenses" />
+
+        <TextView
+            android:id="@+id/perHeadexpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PerHead Expenses :102220 tk"
+            android:textSize="16sp"
+
+            android:layout_below="@+id/totalexpense"
+            android:layout_alignLeft="@+id/totalexpense"
+            android:layout_alignStart="@+id/totalexpense" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="bottom"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+</FrameLayout>

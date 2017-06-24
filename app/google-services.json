@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1058005894243",
+    "firebase_url": "https://travelandtourism-e994f.firebaseio.com",
+    "project_id": "travelandtourism-e994f",
+    "storage_bucket": "travelandtourism-e994f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058005894243:android:547de0ac22290331",
+        "android_client_info": {
+          "package_name": "com.example.abdullah.traveltourism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058005894243-of44hrf2vgoeeu29bkq0v1b5vtnvkkb8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdullah.traveltourism",
+            "certificate_hash": "27ff9bb88ff048b947a36449d18c6cc9220540ae"
+          }
+        },
+        {
+          "client_id": "1058005894243-56dnit86ronhdm67kha42vm3l8es9s9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abdullah.traveltourism",
+            "certificate_hash": "6ce7b36380fa9ea70c55587aab927ed20179c9ef"
+          }
+        },
+        {
+          "client_id": "1058005894243-fne3ab9hl2fl4n9fcgnhkg4e4h7i44d5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_hMzXePSYLvycifJCjRoU18tSA_olVgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058005894243-fne3ab9hl2fl4n9fcgnhkg4e4h7i44d5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
